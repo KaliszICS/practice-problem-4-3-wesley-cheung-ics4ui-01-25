@@ -39,4 +39,10 @@ class Triangle {
 		this.side2 = 3;
 		this.side3 = 3;		
 	}
+
+	public Triangle(double side1, double side2) {
+		this.side1 = side1;
+		this.side2 = side2;
+		this.side3 = 3;		
+	}
 }
